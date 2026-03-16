@@ -1,0 +1,73 @@
+{% extends "website/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}Home | Personal Website{% endblock %}
+
+{% block content %}
+  <section class="hero-section text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold mb-3">{{ personal.hero_title }}</h1>
+          <p class="lead mb-4">{{ personal.hero_description }}</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn btn-light btn-lg" href="{% url 'contact' %}">{% trans "Contact Me" %}</a>
+            <a class="btn btn-outline-light btn-lg" href="{% url 'services' %}">
+              {% trans "View Services" %}
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <div class="hero-media shadow-lg">
+            <img
+              src="{% static 'website/images/hero-mentor.svg' %}"
+              alt="Mentor helping students learn development"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="info-card h-100">
+            <img
+              src="{% static 'website/images/icon-steps.svg' %}"
+              alt="Step by step icon"
+              class="info-icon"
+            />
+            <h5 class="fw-semibold">{% trans "Fast and flexible delivery" %}</h5>
+            <p class="mb-0">{% trans "We plan requirements clearly and deliver step by step." %}</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card h-100">
+            <img
+              src="{% static 'website/images/icon-projects.svg' %}"
+              alt="Projects icon"
+              class="info-icon"
+            />
+            <h5 class="fw-semibold">{% trans "Professional projects" %}</h5>
+            <p class="mb-0">{% trans "Apps and websites with modern design and strong UX." %}</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card h-100">
+            <img
+              src="{% static 'website/images/icon-coach.svg' %}"
+              alt="Coaching icon"
+              class="info-icon"
+            />
+            <h5 class="fw-semibold">{% trans "Reliable handoff" %}</h5>
+            <p class="mb-0">{% trans "Delivery with post-handoff support as agreed." %}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

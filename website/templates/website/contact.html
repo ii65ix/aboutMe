@@ -1,0 +1,59 @@
+{% extends "website/base.html" %}
+{% load i18n %}
+
+{% block title %}Contact | Personal Website{% endblock %}
+
+{% block content %}
+  <section class="page-header py-5">
+    <div class="container">
+      <h1 class="fw-bold">{% trans "Contact" %}</h1>
+      <p class="text-muted mb-0">{% trans "Reach out to request a project or ask about delivery." %}</p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="content-card h-100">
+            <h4 class="fw-semibold">{% trans "Contact Details" %}</h4>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><strong>{% trans "Phone" %}:</strong> {{ contact.phone_number }}</li>
+              <li class="mb-2">
+                <strong>{% trans "Instagram" %}:</strong>
+                <a href="https://instagram.com/{{ contact.instagram }}" target="_blank" rel="noopener">
+                  @{{ contact.instagram }}
+                </a>
+              </li>
+              <li class="mb-2">
+                <strong>{% trans "TikTok" %}:</strong>
+                <a href="https://tiktok.com/@{{ contact.tiktok }}" target="_blank" rel="noopener">
+                  @{{ contact.tiktok }}
+                </a>
+              </li>
+              <li class="mb-0"><strong>{% trans "WhatsApp" %}:</strong> {{ contact.whatsapp_number }}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h4 class="fw-semibold">{% trans "Let's start" %}</h4>
+              <p>
+                {% trans "Message me on WhatsApp to discuss scope, timeline, and pricing." %}
+              </p>
+            </div>
+            <a
+              class="btn btn-success btn-lg mt-3"
+              href="https://wa.me/{{ contact.whatsapp_link }}"
+              target="_blank"
+              rel="noopener"
+            >
+              {% trans "WhatsApp Me" %}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

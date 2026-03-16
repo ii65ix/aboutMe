@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+
+msgid "English"
+msgstr "الإنجليزية"
+
+msgid "Arabic"
+msgstr "العربية"
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "About"
+msgstr "نبذة"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "Contact"
+msgstr "تواصل"
+
+msgid "Go"
+msgstr "تطبيق"
+
+msgid "Contact Me"
+msgstr "تواصل معي"
+
+msgid "High-quality delivery of mobile app and web projects."
+msgstr "تنفيذ وبيع مشاريع تطبيقات الجوال ومواقع الويب بجودة عالية."
+
+msgid "View Services"
+msgstr "مشاهدة الخدمات"
+
+msgid "Fast and flexible delivery"
+msgstr "تنفيذ سريع ومرن"
+
+msgid "We plan requirements clearly and deliver step by step."
+msgstr "نرتّب المتطلبات وننفّذ المشروع بخطوات واضحة."
+
+msgid "Professional projects"
+msgstr "مشاريع احترافية"
+
+msgid "Apps and websites with modern design and strong UX."
+msgstr "تطبيقات ومواقع بتصميم عصري وتجربة مستخدم قوية."
+
+msgid "Reliable handoff"
+msgstr "تسليم مضمون"
+
+msgid "Delivery with post-handoff support as agreed."
+msgstr "مشروع جاهز مع دعم ما بعد التسليم حسب الاتفاق."
+
+msgid "About Me"
+msgstr "نبذة عني"
+
+msgid "Learn about my experience and how I deliver projects."
+msgstr "تعرفي على خبرتي وطريقة عملي في تنفيذ المشاريع."
+
+msgid "Biography"
+msgstr "نبذة"
+
+msgid "Experience"
+msgstr "الخبرة"
+
+msgid "Mission"
+msgstr "الهدف"
+
+msgid "Professional delivery and sale of app and web projects."
+msgstr "خدمات تنفيذ وبيع مشاريع تطبيقات ومواقع باحترافية."
+
+msgid "Reach out to request a project or ask about delivery."
+msgstr "تواصلي لطلب مشروع أو استفسار عن التنفيذ."
+
+msgid "Contact Details"
+msgstr "بيانات التواصل"
+
+msgid "Phone"
+msgstr "الهاتف"
+
+msgid "Instagram"
+msgstr "انستغرام"
+
+msgid "TikTok"
+msgstr "تيك توك"
+
+msgid "WhatsApp"
+msgstr "واتساب"
+
+msgid "Let's start"
+msgstr "خلينا نبدأ"
+
+msgid "Message me on WhatsApp to discuss scope, timeline, and pricing."
+msgstr "راسليني على واتساب لتفاصيل المشروع والمدة والتكلفة."
+
+msgid "WhatsApp Me"
+msgstr "راسليني واتساب"
+
+msgid "Ready for your project? We build it into a professional app or website"
+msgstr "جاهزة لمشروعك؟ نحول فكرتك إلى تطبيق أو موقع احترافي"
+
+msgid "I deliver and sell mobile app and web projects, with full support from idea to handoff."
+msgstr "أقدّم خدمات تنفيذ وبيع مشاريع تطبيقات الجوال وتطوير المواقع، مع دعم كامل من الفكرة حتى التسليم."
+
+msgid "I build ready-made and custom digital solutions for clients and students."
+msgstr "أنا مطوّرة أقدّم حلول رقمية جاهزة ومخصّصة للعملاء والطلاب."
+
+msgid "My experience includes mobile apps, professional websites, and full project delivery."
+msgstr "خبرتي تشمل تطوير تطبيقات جوال ومواقع احترافية وتسليم مشاريع كاملة."
+
+msgid "My mission is fast, high-quality delivery with clear communication and real results."
+msgstr "هدفي تقديم مشاريع قوية وسريعة التنفيذ بأسلوب واضح ونتائج واقعية."
+
+msgid "Mobile app project delivery"
+msgstr "تنفيذ مشاريع تطبيقات الجوال"
+
+msgid "Professional apps delivered from idea to launch-ready build."
+msgstr "أبني تطبيقات احترافية جاهزة للتسليم من الفكرة حتى الإطلاق."
+
+msgid "Web project delivery"
+msgstr "تنفيذ مشاريع مواقع الويب"
+
+msgid "Modern, responsive websites with polished user experience."
+msgstr "مواقع عصرية وسريعة مع تصميم متجاوب وتجربة مستخدم قوية."
+
+msgid "Ready-made and custom projects"
+msgstr "بيع مشاريع جاهزة ومخصّصة"
+
+msgid "Complete projects tailored and delivered to your requirements."
+msgstr "مشاريع كاملة قابلة للتسليم والتعديل حسب طلبك."
