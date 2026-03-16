@@ -17,21 +17,49 @@
         <div class="col-lg-6">
           <div class="content-card h-100">
             <h4 class="fw-semibold">{% trans "Contact Details" %}</h4>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><strong>{% trans "Phone" %}:</strong> {{ contact.phone_number }}</li>
-              <li class="mb-2">
-                <strong>{% trans "Instagram" %}:</strong>
-                <a href="https://instagram.com/{{ contact.instagram }}" target="_blank" rel="noopener">
-                  @{{ contact.instagram }}
-                </a>
+            <ul class="list-unstyled mb-0 contact-list">
+              <li class="mb-3">
+                <span class="contact-icon"><i class="bi bi-telephone-fill"></i></span>
+                <div>
+                  <strong>{% trans "Phone" %}</strong>
+                  <div>{{ contact.phone_number }}</div>
+                </div>
               </li>
-              <li class="mb-2">
-                <strong>{% trans "TikTok" %}:</strong>
-                <a href="https://tiktok.com/@{{ contact.tiktok }}" target="_blank" rel="noopener">
-                  @{{ contact.tiktok }}
-                </a>
+              <li class="mb-3">
+                <span class="contact-icon"><i class="bi bi-instagram"></i></span>
+                <div>
+                  <strong>{% trans "Instagram" %}</strong>
+                  <a
+                    class="contact-handle"
+                    href="https://instagram.com/{{ contact.instagram }}"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    {{ contact.instagram }}
+                  </a>
+                </div>
               </li>
-              <li class="mb-0"><strong>{% trans "WhatsApp" %}:</strong> {{ contact.whatsapp_number }}</li>
+              <li class="mb-3">
+                <span class="contact-icon"><i class="bi bi-tiktok"></i></span>
+                <div>
+                  <strong>{% trans "TikTok" %}</strong>
+                  <a
+                    class="contact-handle"
+                    href="https://tiktok.com/@{{ contact.tiktok }}"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    {{ contact.tiktok }}
+                  </a>
+                </div>
+              </li>
+              <li class="mb-0">
+                <span class="contact-icon"><i class="bi bi-whatsapp"></i></span>
+                <div>
+                  <strong>{% trans "WhatsApp" %}</strong>
+                  <div>{{ contact.whatsapp_number }}</div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

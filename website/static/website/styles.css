@@ -1,11 +1,55 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fb;
+  background: #f4f6fb;
+  color: #101828;
+}
+
+:root {
+  --primary: #5465ff;
+  --secondary: #21c1d6;
+  --accent: #ffb17a;
+  --ink: #101828;
+  --surface: #ffffff;
+}
+
+.main-navbar {
+  background: linear-gradient(120deg, #1b1f3b, #2b2f55);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: #3f4ae0;
+  border-color: #3f4ae0;
+}
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e2e8f0;
 }
 
 .hero-section {
-  background: radial-gradient(circle at top, #2b3a67, #111827 65%);
-  padding: 80px 0;
+  background: radial-gradient(circle at top, #2a3169 0%, #111827 65%);
+  padding: 90px 0;
+}
+
+.welcome-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
 
 .hero-media {
@@ -17,14 +61,14 @@ body {
 
 .info-card,
 .content-card {
-  background-color: #ffffff;
-  border-radius: 16px;
+  background-color: var(--surface);
+  border-radius: 18px;
   padding: 24px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--surface);
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -52,4 +96,40 @@ body {
 
 .card {
   border-radius: 18px;
+}
+
+.contact-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.contact-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(84, 101, 255, 0.15), rgba(33, 193, 214, 0.15));
+  color: #1b2a59;
+  font-size: 1.1rem;
+}
+
+.contact-handle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: #f1f5ff;
+  color: #1b2a59;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-handle:hover {
+  background: #e3e8ff;
+  color: #1b2a59;
 }
