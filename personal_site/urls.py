@@ -17,8 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.i18n import i18n_patterns
+from django.shortcuts import redirect
+from django.utils.translation import get_language_from_request
+
+
+def language_redirect(request):
+    language = get_language_from_request(request, check_path=False) or "en"
+    return redirect(f"/{language}/")
 
 urlpatterns = [
+    path("", language_redirect),
     path("i18n/", include("django.conf.urls.i18n")),
 ]
 
